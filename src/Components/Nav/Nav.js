@@ -7,11 +7,14 @@ import { Link } from 'react-router-dom'
 let NavContainer = styled.nav`
 width: 100%;
 height: 7rem;
-background-color: black;
+background-color: transparent;
 color: white;
 display:flex;
 align-items:center;
 justify-content: space-between;
+position:absolute;
+
+z-index:5;
 `
 
 let NavLogo = styled.div`
@@ -35,7 +38,9 @@ text-decoration:none;
 `
 
 let ListContainer = styled.ul`
+    position: relative;
     display:flex;
+    right: 10rem;
 
 `
 
@@ -46,7 +51,7 @@ let ListItem = styled.li`
     font-family: "Nasalization";
 
 
-        @import url(//db.onlinewebfonts.com/c/f88cd11de6d9aa48ddc14cf6181b309c?family=Nasalization);
+    @import url(//db.onlinewebfonts.com/c/f88cd11de6d9aa48ddc14cf6181b309c?family=Nasalization);
     @font-face {font-family: "Nasalization"; src: url("//db.onlinewebfonts.com/t/f88cd11de6d9aa48ddc14cf6181b309c.eot"); src: url("//db.onlinewebfonts.com/t/f88cd11de6d9aa48ddc14cf6181b309c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f88cd11de6d9aa48ddc14cf6181b309c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f88cd11de6d9aa48ddc14cf6181b309c.woff") format("woff"), url("//db.onlinewebfonts.com/t/f88cd11de6d9aa48ddc14cf6181b309c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f88cd11de6d9aa48ddc14cf6181b309c.svg#Nasalization") format("svg"); };
 
 
@@ -67,9 +72,7 @@ const Nav = () => {
                 <StyledLink to='/'>
                     <NavLogo>
                         NASA
-                        </NavLogo>
-
-
+                     </NavLogo>
                 </StyledLink>
 
 

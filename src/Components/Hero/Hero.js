@@ -15,7 +15,31 @@ let ImgContainer = styled.img`
 height: 100%;
 width: 100%;
 `
+let Headline = styled.h1`
+position: absolute;
+top:30%;
+left:50%;
+transform: translate(-50%, -50%);
+color: #FFFFFF;
+font-family: 'nasalization';
+font-size: 4rem;
+letter-spacing: .2rem;
 
+`
+let SubHeadline = styled.p`
+    position: absolute;
+    top:36%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: 'nasalization';
+    font-size: 2rem;
+    font-weight:100;
+    opacity:.8;
+    letter-spacing: .4rem;
+    
+
+`
 
 
 
@@ -25,6 +49,8 @@ const Hero = () => {
     return (
         <HeroContainer>
             <ImgContainer src={HeroImg} />
+            <Headline>NASA Data Visulaization </Headline>
+            <SubHeadline>Everything you need to feed your space obsession</SubHeadline>
         </HeroContainer>
     )
 }
