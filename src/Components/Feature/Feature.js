@@ -9,8 +9,9 @@ const Feature = () => {
     background-color:#FFFFFF;;
 `
 
-    let Header = styled.h1`
+    let Header = styled.span`
     position: relative;
+    width:100%;
     font-size:4rem;
     left: 5rem;
     top: 3rem;
