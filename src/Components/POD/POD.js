@@ -78,12 +78,11 @@ const POD = () => {
             })
     }, [])
 
-    let imgTitle = picture.title;
     let picImg = picture.hdurl;
     let picTitle = picture.title;
     let picDate = picture.date;
     let picDesc = picture.explanation
-    console.log(picture);
+
 
     return (
         <div>

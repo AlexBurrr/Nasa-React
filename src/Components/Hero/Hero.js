@@ -17,7 +17,7 @@ width: 100%;
 `
 let Headline = styled.h1`
 position: absolute;
-top:30%;
+top:37%;
 left:50%;
 transform: translate(-50%, -50%);
 color: #FFFFFF;
@@ -28,7 +28,7 @@ letter-spacing: .2rem;
 `
 let SubHeadline = styled.p`
     position: absolute;
-    top:36%;
+    top:44%;
     left:50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
