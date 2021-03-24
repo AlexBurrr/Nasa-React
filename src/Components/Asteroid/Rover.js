@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import axios from 'axios';
 import mars from '../../Images/mars.jpg'
 
 
@@ -52,7 +51,7 @@ const Asteroid = () => {
                     Perseverance Rover Location
                 </Title>
                 <MarsRoverWidget>
-                    <iframe src='https://mars.nasa.gov/maps/location/?mission=M20' width='700' height='450' scrolling='no' frameborder='0' allowfullscreen></iframe>
+                    <iframe title='rover' src='https://mars.nasa.gov/maps/location/?mission=M20' width='700' height='450' scrolling='no' frameborder='0' allowfullscreen></iframe>
                 </MarsRoverWidget>
                 <Details>
                     Scroll and pan around this map to see the latest location and traverse path for the Mars Perseverance rover at Jezero Crater. The goal of the mission is to seek signs of ancient life and collect samples of rock and regolith (broken rock and dust) for possible return to Earth. This map is composed of two layers: a grayscale Jezero Crater map, and a true-color base map. The greyscale base map was created with images from the HiRISE camera on NASA’s Mars Reconnaissance Orbiter, while the color base map is from the European Space Agency Mars Express High Resolution Stereo camera. Engineers created this experience with software used by the mission team who decide where Perseverance will explore, and how to get there. Each dot represents the end point of a drive and is labeled with the day, or sol, on Mars, that the rover stopped.
