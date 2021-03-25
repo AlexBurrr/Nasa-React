@@ -44,25 +44,25 @@ left: 5rem;
 `
 let PicTitle = styled.h2`
 position: relative;
-width: 30%;
+width: 100%;
 left: 12rem;
-top: 5rem;
+top: 3rem;
 font-size: 2rem;
 `
 let PicDate = styled.h2`
 position: relative;
-left: -9rem;
-top: 8rem;
-width: 20rem;
+left: -2rem;
+top: 10rem;
+width: 100%;
 `
 let PicDesc = styled.p`
 position: relative;
-left: -18.5rem;
-top: 11rem;
-width: 50%;
-line-height: 150%;
+left: -15.5rem;
+top: 13rem;
+width: 400rem;
+line-height: 130%;
 font-family: 'Lato', sans-serif;
-font-weight: 400;
+font-weight: 300;
 font-size: 1.5rem;
 `
 
