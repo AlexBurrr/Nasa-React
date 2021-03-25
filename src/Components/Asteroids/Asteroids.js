@@ -107,6 +107,7 @@ const Tech = () => {
                                 <Card key={index}>
                                     {name}
                                 </Card>
+
                             )
                         })
                     }
