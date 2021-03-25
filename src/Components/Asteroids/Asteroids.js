@@ -24,7 +24,7 @@ object-fit: cover;
 `
 const AstTitle = styled.span`
 position: relative;
-left:40%;
+left:37%;
 top:3rem;
 transform: translate(-50%, -50%);
 text-align:center;
@@ -48,7 +48,9 @@ const AstContent = styled.div`
 `
 
 const Card = styled.div`
+font-family: 'lato', sans-serif;
 display: grid;
+opacity: .7;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(4,1fr);
 width: 20rem;
@@ -108,7 +110,10 @@ const Tech = () => {
                         astName.splice(3).map((name, index) => {
                             return (
                                 <Card key={index}>
-                                    {name}
+                                    <>
+                                        {name}
+                                    </>
+
                                     {date[index]}
                                     {diameter[index]}
                                     {speed[index]}
