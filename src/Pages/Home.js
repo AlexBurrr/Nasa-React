@@ -15,7 +15,7 @@ const Home = () => {
 
 
 
-            <Feature />
+
 
         </div>
     )

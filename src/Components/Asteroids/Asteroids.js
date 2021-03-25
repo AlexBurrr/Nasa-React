@@ -58,7 +58,8 @@ height: 20rem;
 padding: 2rem;
 background: black;
 margin: 4rem;
-line-height: 2rem;
+text-align: center;
+/* line-height: 2rem; */
 
 
 `
@@ -89,7 +90,7 @@ const Tech = () => {
     console.log(asteroid);
     for (const item in asteroid) {
         let thing = (asteroid[item]).slice(0)
-        thing.slice(0).map((item, index) => {
+        thing.slice(0).map((item) => {
             if (item.is_potentially_hazardous_asteroid === true) {
                 astName.push(`name: ${item.name}`)
                 date.push(`approach date: ${item.close_approach_data[0].close_approach_date_full}`)
@@ -110,13 +111,11 @@ const Tech = () => {
                         astName.splice(3).map((name, index) => {
                             return (
                                 <Card key={index}>
-                                    <>
-                                        {name}
-                                    </>
 
-                                    {date[index]}
-                                    {diameter[index]}
-                                    {speed[index]}
+                                    {name}<break />
+                                    {date[index]}<break />
+                                    {diameter[index]}<break />
+                                    {speed[index]}<break />
 
                                 </Card>
 

@@ -50,7 +50,7 @@ const Hero = () => {
         <HeroContainer>
             <ImgContainer src={HeroImg} />
             <Headline>NASA Data Visulaization </Headline>
-            <SubHeadline>Everything you need to feed your space obsession</SubHeadline>
+            <SubHeadline>Feed your space obsession</SubHeadline>
         </HeroContainer>
     )
 }
