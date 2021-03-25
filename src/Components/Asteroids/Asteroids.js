@@ -111,7 +111,6 @@ const Tech = () => {
                             )
                         })
                     }
-
                 </AstContent>
 
             </AstContWrapper>
