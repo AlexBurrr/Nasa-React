@@ -48,6 +48,9 @@ const AstContent = styled.div`
 `
 
 const Card = styled.div`
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(4,1fr);
 width: 20rem;
 height: 20rem;
 padding: 2rem;
@@ -106,6 +109,10 @@ const Tech = () => {
                             return (
                                 <Card key={index}>
                                     {name}
+                                    {date[index]}
+                                    {diameter[index]}
+                                    {speed[index]}
+
                                 </Card>
 
                             )
