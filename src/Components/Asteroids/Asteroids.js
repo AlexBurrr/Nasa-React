@@ -111,8 +111,8 @@ const Tech = () => {
                         astName.splice(3).map((name, index) => {
                             return (
                                 <Card key={index}>
-
                                     {name}<break />
+                                    Potentially Hazardous Asteroid: True <break />
                                     {date[index]}<break />
                                     {diameter[index]}<break />
                                     {speed[index]}<break />

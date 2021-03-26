@@ -4,6 +4,8 @@ import Feature from '../Components/Feature/Feature';
 import POD from '../Components/POD/POD';
 import Rover from '../Components/Asteroid/Rover'
 import Asteroids from '../Components/Asteroids/Asteroids'
+import Footer from '../Components/Footer/Footer'
+
 
 const Home = () => {
     return (
@@ -12,6 +14,7 @@ const Home = () => {
             <Asteroids />
             <POD />
             <Rover />
+            <Footer />
 
 
 
